@@ -5,15 +5,6 @@
   line-height: 1.88;
   text-align: center;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media all and (min-width: 768px) {
-    padding: 45px 39px;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
 
   &__icon {
     width: 45px;
@@ -21,8 +12,10 @@
     border-radius: 50px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     background: url("../images/ico-arrow.svg") #ffffff center center no-repeat;
+    display: block;
+    margin: auto;
+    top: -22px;
     position: relative;
-    top: -20px;
   }
 
   &__list {
@@ -33,36 +26,64 @@
     text-transform: uppercase;
     margin: 0px;
     padding: 0 37px 30px;
+    @media all and (min-width: 768px) {
+      text-align: left;
+    }
     &-link {
       text-decoration: none;
       color: #ffffff;
     }
   }
 
-  &__socials {
+  &__container {
     display: flex;
     flex-direction: column;
-  }
-
-  &__social {
-    text-decoration: none;
-    line-height: 1.88;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-  }
-
-  &__info {
-    font-size: 14px;
-    line-height: 2.14;
-    padding: 30px 34px 0 34px;
+    align-items: center;
     @media all and (min-width: 768px) {
-      padding: 0;
+      padding: 45px 39px;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    &-menu {
+      @media all and (min-width: 768px) {
+        order: 1;
+      }
+    }
+
+    &-socials {
+      display: flex;
+      flex-direction: column;
+      @media all and (min-width: 768px) {
+        order: 2;
+      }
+      &-social {
+        text-decoration: none;
+        line-height: 1.88;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        @media all and (min-width: 768px) {
+          text-align: left;
+        }
+      }
+    }
+
+    &-info {
+      font-size: 14px;
+      line-height: 2.14;
+      padding: 30px 34px 0 34px;
+      @media all and (min-width: 768px) {
+        order: 0;
+        padding: 0;
+        text-align: left;
+      }
     }
   }
-}
 
-.heart__symbol {
-  color: #f26002;
-  font-size: 14px;
+  .heart__symbol {
+    color: #f26002;
+    font-size: 14px;
+  }
 }

@@ -1,5 +1,4 @@
 .main__section {
-  text-transform: capitalize;
   text-align: start;
   padding: 0 15px;
   margin-bottom: 45px;
@@ -16,6 +15,7 @@
   }
 
   &-title {
+    text-transform: capitalize;
     font-family: "Roboto Slab", serif;
     font-size: 24px;
     font-weight: bold;
