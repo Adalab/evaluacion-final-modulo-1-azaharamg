@@ -1,5 +1,41 @@
 .footer {
+  background: #304268;
+  padding: 60px 15px 45px 15px;
+  line-height: 1.88;
+  text-align: center;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &__list {
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding: 0 37px 30px;
+  }
+
+  &__socials {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__social {
+    text-decoration: none;
+    line-height: 1.88;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  &__info {
+    font-size: 14px;
+    line-height: 2.14;
+    padding: 30px 34px 0 34px;
+  }
+}
+
+.heart__symbol {
+  color: #f26002;
+  font-size: 14px;
 }
