@@ -2,6 +2,8 @@
   border: 2px solid salmon;
   text-transform: capitalize;
   text-align: start;
+  padding: 0 15px;
+  margin-bottom: 45px;
 
   &-tag {
     border: 2px solid greenyellow;
@@ -17,6 +19,7 @@
     font-weight: bold;
     line-height: 1.25;
     color: #000000;
+    margin: 0;
   }
 
   &-info {
@@ -24,25 +27,21 @@
     font-size: 18px;
     line-height: 1.67;
     color: #4a4a4a;
+    margin-top: 15px;
     margin-bottom: 30px;
   }
 
   &-button {
     border: 2px solid #f26002;
     border-radius: 22.5px;
-    padding: 0 25px;
-    width: 76px;
-    height: 45px;
-    margin-bottom: 30px;
+    padding: 12px 25px;
   }
 
   &-link {
     text-decoration: none;
     color: #f26002;
-    width: 25px;
-    height: 45px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 2.25;
     text-align: center;
   }
