@@ -4,6 +4,7 @@
   text-align: center;
 
   &_title {
+    font-family: "Roboto Slab", serif;
     text-transform: capitalize;
     font-size: 24px;
     font-weight: bold;
@@ -19,12 +20,14 @@
   }
 
   &__section {
+    font-family: "Roboto", sans-serif;
     padding: 0 45px;
     margin-top: 45px;
     font-size: 18px;
     line-height: 1.67;
     color: #000000;
     &-title {
+      font-family: "Roboto Slab", serif;
       font-weight: bold;
       font-size: 18px;
     }
@@ -38,6 +41,7 @@
     padding: 15px 30px;
     transform: translate(50px, 50px);
     &-link {
+      font-family: "Roboto", sans-serif;
       text-decoration: none;
       font-size: 20px;
       font-weight: 500;
