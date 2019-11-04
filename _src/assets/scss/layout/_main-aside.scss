@@ -5,7 +5,6 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
 
   &_title {
     border: 2px solid salmon;
@@ -40,27 +39,6 @@
       font-weight: 500;
       line-height: 2.25;
       color: #ffffff;
-    }
-  }
-
-  &__icon {
-    border: 2px solid tomato;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background: #ffffff;
-    position: relative;
-    left: 45%;
-    right: 45%;
-    top: 25px;
-
-    &-link-image {
-      width: 20.6px;
-      height: 24px;
-      object-fit: contain;
-      color: #f26002;
-      padding-top: 10px;
     }
   }
 }
