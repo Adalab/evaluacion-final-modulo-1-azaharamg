@@ -3,6 +3,9 @@
   text-align: start;
   padding: 0 15px;
   margin-bottom: 45px;
+  @media all and (min-width: 768px) {
+    padding: 0 39px;
+  }
 
   &-tag {
     font-family: "Roboto", sans-serif;
@@ -19,6 +22,10 @@
     line-height: 1.25;
     color: #000000;
     margin: 0;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.73;
+    }
   }
 
   &-info {
@@ -29,12 +36,22 @@
     color: #4a4a4a;
     margin-top: 15px;
     margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 1.5;
+    }
   }
 
   &-button {
+    width: 76px;
+    height: 45px;
     border: 2px solid #f26002;
     border-radius: 22.5px;
     padding: 12px 25px;
+    @media all and (min-width: 768px) {
+      width: 91px;
+      height: 45px;
+    }
   }
 
   &-link {

@@ -1,11 +1,15 @@
 .main__hero {
-  background: url("../images/cover.jpg") center -2% no-repeat;
+  background: url("../images/cover.jpg") center no-repeat;
   height: 100vh;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media all and (min-width: 768px) {
+    padding: 0 39px;
+    height: 768px;
+  }
 
   &-title {
     font-family: "Roboto Slab", serif;
@@ -16,6 +20,11 @@
     font-size: 42px;
     font-weight: bold;
     line-height: 1.31;
+    @media all and (min-width: 768px) {
+      max-width: 690px;
+      font-size: 80px;
+      line-height: 1.33;
+    }
   }
 
   &-info {
@@ -23,6 +32,9 @@
     text-align: center;
     color: #ffffff;
     font-size: 16px;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   &-link {
