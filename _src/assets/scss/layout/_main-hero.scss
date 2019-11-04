@@ -10,6 +10,9 @@
   @media all and (min-width: 768px) {
     padding: 0 39px;
   }
+  @media all and (min-width: 1200px) {
+    padding: 0 275px;
+  }
 
   &-title {
     font-family: "Roboto Slab", serif;
@@ -25,6 +28,11 @@
       max-width: 690px;
       font-size: 80px;
       line-height: 1.33;
+    }
+    @media all and (min-width: 1200px) {
+      max-width: 730px;
+      font-size: 100px;
+      line-height: 1.32;
     }
   }
 
