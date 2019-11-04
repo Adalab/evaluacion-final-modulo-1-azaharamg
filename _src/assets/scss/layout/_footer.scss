@@ -10,9 +10,17 @@
 
   &__list {
     list-style: none;
+
+    line-height: 1.88;
+    text-align: center;
+    color: #ffffff;
     text-transform: uppercase;
     padding-left: 0;
     padding: 0 37px 30px;
+    &-link {
+      text-decoration: none;
+      color: #ffffff;
+    }
   }
 
   &__socials {
