@@ -2,6 +2,9 @@
   padding: 30px 15px 60px 15px;
   background: #eff9ff;
   text-align: center;
+  @media all and (min-width: 1200px) {
+    padding: 60px 275px 60px 275px;
+  }
 
   &_title {
     font-family: "Roboto Slab", serif;
@@ -12,6 +15,10 @@
     @media all and (min-width: 768px) {
       font-size: 26px;
       line-height: 1.73;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 32px;
+      line-height: 1.41;
     }
   }
 
@@ -61,6 +68,10 @@
       width: 210px;
       height: 45px;
     }
+    @media all and (min-width: 1200px) {
+      width: 255px;
+    }
+
     &-link {
       font-family: "Roboto", sans-serif;
       text-decoration: none;
