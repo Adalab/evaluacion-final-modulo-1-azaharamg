@@ -16,12 +16,11 @@
   }
 
   &__icon {
-    border: 2px solid tomato;
     width: 45px;
     height: 45px;
     border-radius: 50px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background: #ffffff;
+    background: url("../images/ico-arrow.svg") #ffffff center center no-repeat;
     position: relative;
     top: -20px;
 
