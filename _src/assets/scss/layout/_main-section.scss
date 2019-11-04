@@ -1,0 +1,51 @@
+.main__section {
+  border: 2px solid salmon;
+  text-transform: capitalize;
+  text-align: start;
+
+  &-tag {
+    border: 2px solid greenyellow;
+    width: 90px;
+    margin: 30px 0 0;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #8ccbea;
+  }
+
+  &-title {
+    border: 2px solid aqua;
+    width: 290px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #000000;
+  }
+
+  &-info {
+    width: 290px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+  }
+
+  &-button {
+    border: 2px solid #f26002;
+    border-radius: 22.5px;
+    padding: 0 25px;
+    width: 76px;
+    height: 45px;
+    margin-bottom: 30px;
+  }
+  &-link {
+    text-decoration: none;
+    color: #f26002;
+    width: 25px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+    text-align: center;
+  }
+}
