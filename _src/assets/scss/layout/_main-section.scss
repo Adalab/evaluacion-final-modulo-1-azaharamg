@@ -11,7 +11,7 @@
 
   &-tag {
     text-transform: capitalize;
-    font-family: "Roboto", sans-serif;
+    font-family: $font-text;
     margin-top: 30px;
     font-size: 14px;
     line-height: 2.14;
@@ -25,11 +25,11 @@
 
   &-title {
     text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
+    font-family: $font-titles;
     font-size: 24px;
     font-weight: bold;
     line-height: 1.25;
-    color: #000000;
+    color: $color-black;
     @media all and (min-width: 768px) {
       font-size: 26px;
       line-height: 1.73;
@@ -41,7 +41,7 @@
   }
 
   &-info {
-    font-family: "Roboto", sans-serif;
+    font-family: $font-text;
     text-align: justify;
     font-size: 18px;
     line-height: 1.67;
@@ -62,7 +62,7 @@
   &-button {
     width: 76px;
     height: 45px;
-    border: 2px solid #f26002;
+    border: 2px solid $color-button;
     border-radius: 22.5px;
     display: block;
     text-align: center;
@@ -77,9 +77,9 @@
   }
 
   &-link {
-    font-family: "Roboto", sans-serif;
+    font-family: $font-text;
     text-decoration: none;
-    color: #f26002;
+    color: $color-button;
     font-size: 20px;
     font-weight: 500;
     line-height: 2.25;

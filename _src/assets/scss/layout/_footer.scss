@@ -1,10 +1,10 @@
 .footer {
-  background: #304268;
+  background: $color-darkBlue;
   padding: 0 15px 45px 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-text;
   line-height: 1.88;
   text-align: center;
-  color: #ffffff;
+  color: $color-white;
   @media all and (min-width: 1200px) {
     padding: 0 370px;
   }
@@ -14,7 +14,7 @@
     height: 45px;
     border-radius: 50px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background: url("../images/ico-arrow.svg") #ffffff center center no-repeat;
+    background: url("../images/ico-arrow.svg") $color-white center center no-repeat;
     display: block;
     margin: auto;
     top: -22px;
@@ -25,7 +25,7 @@
     list-style: none;
     line-height: 1.88;
     text-align: center;
-    color: #ffffff;
+    color: $color-white;
     text-transform: uppercase;
     margin: 0px;
     padding: 0 37px 30px;
@@ -34,7 +34,7 @@
     }
     &-link {
       text-decoration: none;
-      color: #ffffff;
+      color: $color-white;
     }
   }
 
@@ -43,13 +43,9 @@
     flex-direction: column;
     align-items: center;
     @media all and (min-width: 768px) {
-      padding: 45px 39px;
       flex-direction: row;
       justify-content: space-around;
       align-items: flex-start;
-    }
-    @media all and (min-width: 1200px) {
-      padding: 45px 0;
     }
 
     &-menu {
@@ -68,7 +64,7 @@
         text-decoration: none;
         line-height: 1.88;
         text-align: center;
-        color: #ffffff;
+        color: $color-white;
         text-transform: uppercase;
         @media all and (min-width: 768px) {
           text-align: left;
@@ -89,7 +85,7 @@
   }
 
   .heart__symbol {
-    color: #f26002;
+    color: $color-button;
     font-size: 14px;
   }
 }
