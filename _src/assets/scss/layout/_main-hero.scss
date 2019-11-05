@@ -19,7 +19,7 @@
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     text-align: center;
-    color: $color-white;
+    color: $color02;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.31;
@@ -39,7 +39,7 @@
   &-info {
     font-family: $font-text;
     text-align: center;
-    color: $color-white;
+    color: $color02;
     font-size: 16px;
     margin-bottom: 45px;
     @media all and (min-width: 768px) {
@@ -55,7 +55,7 @@
     height: 45px;
     margin-bottom: 53px;
     border-radius: 22.5px;
-    background: url("../images/ico-scroll-down.svg") #ffffff center center no-repeat;
+    background: url("../images/ico-scroll-down.svg") $color02 center center no-repeat;
     @media all and (min-width: 1200px) {
       margin-bottom: 13px;
     }

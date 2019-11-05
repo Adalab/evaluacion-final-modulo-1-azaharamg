@@ -1,10 +1,10 @@
 .footer {
-  background: $color-darkBlue;
+  background: $color04;
   padding: 0 15px 45px 15px;
   font-family: $font-text;
   line-height: 1.88;
   text-align: center;
-  color: $color-white;
+  color: $color02;
   @media all and (min-width: 1200px) {
     padding: 0 370px;
   }
@@ -14,18 +14,36 @@
     height: 45px;
     border-radius: 50px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background: url("../images/ico-arrow.svg") $color-white center center no-repeat;
+    background: url("../images/ico-arrow.svg") $color02 center center no-repeat;
     display: block;
     margin: auto;
     top: -22px;
     position: relative;
+
+    animation-duration: 2s;
+    animation-name: intro;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes intro {
+    from {
+      transform: translate(100%);
+      opacity: 0;
+      color: white;
+    }
+
+    to {
+      transform: translate(-50%);
+      opacity: 1;
+    }
   }
 
   &__list {
     list-style: none;
     line-height: 1.88;
     text-align: center;
-    color: $color-white;
+    color: $color02;
     text-transform: uppercase;
     margin: 0px;
     padding: 0 37px 30px;
@@ -34,7 +52,7 @@
     }
     &-link {
       text-decoration: none;
-      color: $color-white;
+      color: $color02;
     }
   }
 
@@ -65,7 +83,7 @@
         text-decoration: none;
         line-height: 1.88;
         text-align: center;
-        color: $color-white;
+        color: $color02;
         text-transform: uppercase;
         @media all and (min-width: 768px) {
           text-align: left;
@@ -73,7 +91,7 @@
       }
       &-link {
         text-decoration: none;
-        color: $color-white;
+        color: $color02;
       }
     }
 
@@ -90,7 +108,7 @@
   }
 
   .heart__symbol {
-    color: $color-button;
+    color: $color01;
     font-size: 14px;
   }
 }
