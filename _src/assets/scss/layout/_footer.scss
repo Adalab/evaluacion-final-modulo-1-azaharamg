@@ -61,6 +61,7 @@
         order: 2;
       }
       &-social {
+        list-style: none;
         text-decoration: none;
         line-height: 1.88;
         text-align: center;
@@ -69,6 +70,10 @@
         @media all and (min-width: 768px) {
           text-align: left;
         }
+      }
+      &-link {
+        text-decoration: none;
+        color: $color-white;
       }
     }
 

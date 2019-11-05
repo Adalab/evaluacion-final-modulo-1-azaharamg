@@ -59,11 +59,17 @@
     }
   }
 
-  &-button {
+  &-link {
     width: 76px;
     height: 45px;
     border: 2px solid $color-button;
     border-radius: 22.5px;
+    font-family: $font-text;
+    text-decoration: none;
+    color: $color-button;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
     display: block;
     text-align: center;
     @media all and (min-width: 768px) {
@@ -74,14 +80,5 @@
       width: 160px;
       height: 45px;
     }
-  }
-
-  &-link {
-    font-family: $font-text;
-    text-decoration: none;
-    color: $color-button;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 2.25;
   }
 }
