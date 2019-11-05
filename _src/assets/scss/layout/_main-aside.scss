@@ -7,19 +7,7 @@
   }
 
   &_title {
-    font-family: $font-titles;
-    text-transform: capitalize;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.25;
-    @media all and (min-width: 768px) {
-      font-size: 26px;
-      line-height: 1.73;
-    }
-    @media all and (min-width: 1200px) {
-      font-size: 32px;
-      line-height: 1.41;
-    }
+    @include styleTitles();
   }
 
   &__container {

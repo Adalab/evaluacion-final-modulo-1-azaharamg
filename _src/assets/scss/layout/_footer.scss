@@ -19,7 +19,6 @@
     margin: auto;
     top: -22px;
     position: relative;
-
     animation-duration: 2s;
     animation-name: intro;
     animation-iteration-count: infinite;
@@ -40,16 +39,9 @@
   }
 
   &__list {
-    list-style: none;
-    line-height: 1.88;
-    text-align: center;
-    color: $color02;
-    text-transform: uppercase;
-    margin: 0px;
     padding: 0 37px 30px;
-    @media all and (min-width: 768px) {
-      text-align: left;
-    }
+    @include styleLists();
+
     &-link {
       text-decoration: none;
       color: $color02;
@@ -79,15 +71,7 @@
         order: 2;
       }
       &-social {
-        list-style: none;
-        text-decoration: none;
-        line-height: 1.88;
-        text-align: center;
-        color: $color02;
-        text-transform: uppercase;
-        @media all and (min-width: 768px) {
-          text-align: left;
-        }
+        @include styleLists();
       }
       &-link {
         text-decoration: none;
