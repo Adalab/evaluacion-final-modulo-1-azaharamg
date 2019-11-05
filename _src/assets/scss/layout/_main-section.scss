@@ -81,4 +81,9 @@
       height: 45px;
     }
   }
+  .main__section-link:hover {
+    background-color: $color-button;
+    color: $color-white;
+    transition: color ease 2s;
+  }
 }
